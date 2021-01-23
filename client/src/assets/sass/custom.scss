@@ -1,0 +1,53 @@
+@font-face {
+    font-family: 'Cardo';
+    font-style: normal;
+    font-weight: 400;
+    font-display: auto; /* or block, swap, fallback, optional */
+    src: local('Cardo'),
+         url('../fonts/Cardo/Cardo-Regular.ttf') format('truetype'), /* will be preloaded */
+         url('../fonts/Cardo/Cardo-Italic.ttf') format('truetype'),
+         url('../fonts/Cardo/Cardo-Bold.ttf') format('truetype');
+  }
+
+  @font-face {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-display: auto; /* or block, swap, fallback, optional */
+    src: local('Oswald'),
+         url('../fonts/Oswald/Oswald-VariableFont_wght.ttf') format('truetype'), /* will be preloaded */
+         url('../fonts/Oswald/static/Oswald-Regular.ttf') format('truetype'),
+         url('../fonts/Oswald/static/Oswald-Bold.ttf') format('truetype'),
+         url('../fonts/Oswald/static/Oswald-Light.ttf') format('truetype'),
+         url('../fonts/Oswald/static/Oswald-Medium.ttf') format('truetype'),
+         url('../fonts/Oswald/static/Oswald-SemiBold.ttf') format('truetype'),
+         url('../fonts/Oswald/static/Oswald-ExtraLight.ttf') format('truetype');
+  }
+  
+@import '~bootstrap/scss/bootstrap.scss';
+@import '~bootstrap-vue/src/index.scss';
+@import '../css/line-awesome.min.css';
+@import "vue-select/src/scss/vue-select.scss";
+@import './style.scss';
+@import './rtl.scss';
+
+p, a, span, li, label, tr, td, a, article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, summary, input, textarea, select{
+  font-family: 'Cardo', sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0px;
+  font-family: 'Oswald', sans-serif;
+}
+
+body::-webkit-scrollbar {
+  width: .7em;
+}
+ 
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background-color: $theme-color; 
+  border-radius: 4px;
+}

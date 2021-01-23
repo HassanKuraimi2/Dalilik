@@ -1,0 +1,33 @@
+{
+  "nav": {
+    "catigories" : "Catigories",
+    "addBussniess": "Add Bussiness",
+    "signInUp":"Sign In/Up"
+  },
+  "search":{
+    "lookFor":"What Are You Looking For ?",
+    "palceholder":"Search for services and business...",
+    "search": "Search Now"
+  },
+  "mainBanner":{
+    "realState":"Real EState",
+    "food&drink":"Food & Drink",
+    "fashion":"Fashion",
+    "health":"Health & Medicine",
+    "electronics":"Electronics",
+    "automotive":"Automotive"
+  },
+  "headlines":{
+    "topSearched":"Top Searched Businesses",
+    "trendingBlogs":"Trending Blogs",
+    "commingEvents":"Comming Events in Kuwait",
+    "askForService":"What Service Do You Need ?",
+    "newAdded":"New Businesses Added"
+  },
+  "links":{
+    "viewAllBussinesses":"View more hot and new businesses",
+    "viewBlogs":"view All Blogs",
+    "viewMoreBussiness" : "View More New Businesses",
+    "sendMsg":"Send Message"
+  }
+}

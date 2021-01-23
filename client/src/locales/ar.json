@@ -1,0 +1,33 @@
+{
+  "nav": {
+    "catigories" : "التصنيفات",
+    "addBussniess": "تسجيل شركة جديدة",
+    "signInUp":"تسجيل الدخول"
+  },
+  "search":{
+    "lookFor":"مالذي تبحث عنه ؟",
+    "palceholder":"إبحث عن اي خدمة تخطر على بالك",
+    "search": "إبحث الأن"
+  },
+  "mainBanner":{
+    "realState":"عقارات",
+    "food&drink":"طعام وشراب",
+    "fashion":"موضة",
+    "health":"صحة و دواء",
+    "electronics":"إلكترونيات",
+    "automotive":"مركبات"
+  },
+  "headlines":{
+    "topSearched":"الأعمال الأكثر بحثا",
+    "trendingBlogs":"المدونات الأكثر تفاعلا",
+    "commingEvents":"أحداث قادمة في الكويت",
+    "askForService":"ماهي الخدمة التي تريدها ؟",
+    "newAdded":"الأعمال الأحدث"
+  },
+  "links":{
+    "viewAllBussinesses":"عرض كل الأعمال",
+    "viewBlogs":"عرض كل المدونات",
+    "viewMoreBussiness" : "عرض كل الأعمال الحديثة",
+    "sendMsg":"إرسال الرسالة"
+  }
+}

@@ -4,8 +4,8 @@
   "description": "Directory and listing Website",
   "main": "app.js",
   "scripts": {
-    "test": "node server/app.js",
-    "build": "babel server/app.js --out-file app-compiled.js",
+    "test": "pm2 start server/app.js --watch",
+    "build": "babel-node server/app.js --out-file app-compiled.js",
     "dev": "nodemon --exec babel-node server/app.js"
   },
   "author": "CIS - Contact For Information Systems",

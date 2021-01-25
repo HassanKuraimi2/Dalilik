@@ -50,6 +50,6 @@ if (process.env.NODE_ENV === "production") {
 const port = process.env.PORT || 5000;
 const host = process.env.HOST || localhost;
 
-app.listen(port, host, () =>
+app.listen(port, () =>
   console.log(`Server running in ${host} at prot ${port}`)
 );
